@@ -17,9 +17,16 @@ public final class R {
     public static final class layout {
         public static final int main=0x7f030000;
     }
+    public static final class raw {
+        public static final int beep=0x7f050000;
+        public static final int flashlight_turn_off_icon=0x7f050001;
+        public static final int flashlight_turn_on_icon=0x7f050002;
+        public static final int ic_btn_search=0x7f050003;
+        public static final int poweredby2x=0x7f050004;
+    }
     public static final class string {
-        public static final int app_name=0x7f050000;
-        public static final int share_name=0x7f050001;
+        public static final int app_name=0x7f060000;
+        public static final int share_name=0x7f060001;
     }
     public static final class xml {
         public static final int config=0x7f040000;
