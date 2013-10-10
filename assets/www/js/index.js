@@ -52,6 +52,7 @@ var app = {
         try {
           
             var scanner = cordova.require("cordova/plugins/barcodescanner");
+            alert(scanner);
             scanner.scan(function (result) {
 
                 alert("We got a barcode\n" +
